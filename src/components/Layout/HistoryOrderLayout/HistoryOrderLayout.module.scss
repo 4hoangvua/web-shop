@@ -1,0 +1,12 @@
+.container {
+  padding: 20px;
+  .c-logo {
+    font-size: 40px;
+    text-align: left;
+  }
+}
+.c-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

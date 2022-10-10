@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+  .c-content {
+    padding: 0 10px;
+    .content {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}

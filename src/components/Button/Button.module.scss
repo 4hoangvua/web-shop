@@ -1,0 +1,22 @@
+.btn {
+  border: transparent;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s ease;
+  color: var(--c-primary);
+  &.disable {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+.primary {
+  background-color: var(--bg-button1);
+}
+.secondary {
+  background-color: var(--bg-button2);
+}

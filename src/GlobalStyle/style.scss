@@ -1,0 +1,28 @@
+:root {
+  /* color */
+  --c-primary: #fff;
+  --c-secondary: #000;
+  --c-error: #f23030;
+  /* background */
+
+  --bg-primary: #ccc;
+  --bg-secondary: #000;
+  --bg-button1: #0d6efd;
+  --bg-button2: #fb0058;
+  --bg-footer: #001733;
+  /* background modal */
+  --bg-modal1: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}

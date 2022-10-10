@@ -1,0 +1,31 @@
+.content {
+  padding: 20px;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    th,
+    td {
+      border-bottom: 1px solid var(--bg-primary);
+    }
+  }
+
+  h1 {
+    border-bottom: 1px solid var(--bg-primary);
+  }
+  .c-img {
+    img {
+      width: 70px;
+      height: 90px;
+      object-fit: cover;
+    }
+  }
+  .c-total {
+    text-align: right;
+    .total {
+      text-align: left;
+      border-radius: unset;
+    }
+  }
+}

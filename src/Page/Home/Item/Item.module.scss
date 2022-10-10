@@ -1,0 +1,43 @@
+.c-item {
+  width: 25%;
+  max-height: 550px;
+  min-height: 500px;
+  padding: 10px;
+  .item {
+    border: 1px solid var(--bg-primary);
+    border-radius: 10px;
+    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+      height: 300px;
+      border-radius: inherit;
+      object-fit: cover;
+      transition: 0.5s ease;
+      &:hover {
+        transform: scale(0.8);
+      }
+    }
+    .item-content {
+      height: 50%;
+      text-align: left;
+      input {
+        text-align: center;
+        display: inline;
+        max-width: 50px;
+        border: transparent;
+        padding: 10px;
+        margin: 0 5px;
+        &:focus {
+          outline: none;
+          border: 1px solid var(--bg-primary);
+        }
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+}

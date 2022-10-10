@@ -1,0 +1,10 @@
+export const GET_PRODUCT = "getProduct";
+export const ADD_CART = "addCart";
+export const GET_DATA_DON_HANG = "getDataDonHang";
+export const GET_DATA_DONG_DON_HANG = "getDataDongDonHang";
+export const CLEAR_MY_CART = "clearMyCart";
+export const GET_DATA_SAN_PHAM = "getDataSanPham";
+export const DETAIL_DON_HANG = "detailDonHang";
+export const SAVE_SAN_PHAM = "saveSanPham";
+export const SAVE_DON_HANG = "saveDonHang";
+export const SAVE_DONG_DON_HANG = "saveDongDonHang";
